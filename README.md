@@ -1,2 +1,2 @@
 # battleships-console-game
-Sunk Or Be Sunk - AI Based Battleships Game
+Sink Or Be Sunk - AI Based Battleships Game
