@@ -1,7 +1,6 @@
 # 🚢 Battleships - Console Game (Java)
 
-A classic **Java-based console Battleships game**.  
-Play against the computer in the terminal, place your ships, and try to sink the opponent's fleet before yours is destroyed.
+A classic **Java-based console Battleships game**. Play against the computer in the terminal, place your ships, and try to sink the opponent's fleet before yours is destroyed.
 
 ---
 
