@@ -1,50 +1,46 @@
-# 🚢 Battleships - Console Game (Java)
+# Battleships - Java Console Game
 
-A classic **Java-based console Battleships game**. Play against the computer in the terminal, place your ships, and try to sink the opponent's fleet before yours is destroyed.
+Classic Battleships in the terminal. Place your fleet, trade shots with the computer, and sink its ships before it sinks yours.
 
----
+## At a Glance
 
-## ✨ Features
+- **Stack:** Java (no external libraries)
+- **State:** Complete
 
-- Text-based console interface  
-- Randomized or manual ship placement  
-- Turn-based gameplay vs Computer  
-- Tracks scores in `scores.txt`  
-- Menu system (loaded from `menuScreen.txt`)  
+## Features
 
----
+- Manual or random ship placement
+- Turn-based play against a computer opponent
+- Menu screen loaded from `menuScreen.txt`
+- Scores saved between runs in `scores.txt`
 
-## 🧱 Project Structure
+## Project Structure
 
 ```
 Battleships/
-├── src/
-│   ├── Main.java          # Entry point of the game
-│   ├── game.java          # Core game logic
-│   ├── menuScreen.txt     # Menu display text
-│   └── scores.txt         # Persistent score tracking
-└── out/                   # Compiled class files
+└── src/
+    ├── Main.java        # Entry point
+    ├── game.java        # Board, turns and win logic
+    ├── menuScreen.txt   # Menu text
+    └── scores.txt       # Saved scores
 ```
 
----
+## Running Locally
 
-## 🚀 Getting Started
-
-1. **Compile the game** from the `src` folder:
+1. Clone the repo and move into the source folder:
+   ```bash
+   git clone https://github.com/nakulpatel0306/battleships-console-game.git
+   cd battleships-console-game/Battleships/src
+   ```
+2. Compile and run:
    ```bash
    javac *.java
-   ```
-
-2. **Run the game**:
-   ```bash
    java Main
    ```
 
----
+## How to Play
 
-## 🎮 How to Play
-
-- Place your ships on the board (either manually or randomized).  
-- Take turns with the computer calling out grid coordinates.  
-- A hit will mark the opponent’s ship; a miss is recorded as water.  
-- The first player to sink all enemy ships wins.  
+- Place your ships on the grid, by hand or at random
+- Take turns calling coordinates with the computer
+- Hits mark the enemy ship, misses mark water
+- First to sink the whole enemy fleet wins
